@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doniyorbekvicc7 | 7D Pro Max Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 7D Interaktiv Kursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Yuklanish ekrani (Preloader) -->
+    <div id="preloader">
+        <div class="loader-7d">
+            <span></span><span></span><span></span>
+            <h2>DONIYORBEKVICC7</h2>
+        </div>
+    </div>
+
+    <!-- 3D / 7D Yulduzli va Geometrik Fon -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigatsiya Paneli -->
+    <header class="glass-nav">
+        <div class="logo">doniyorbek<span>vicc7</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Asosiy</a></li>
+                <li><a href="#about">Men haqimda</a></li>
+                <li><a href="#services">Xizmatlar</a></li>
+                <li><a href="#portfolio">7D Loyihalar</a></li>
+                <li><a href="#contact">Aloqa</a></li>
+            </ul>
+        </nav>
+        <div class="nav-btn">
+            <a href="#contact" class="btn-neon">Bog'lanish</a>
+        </div>
+    </header>
+
+    <!-- 1. HERO BO'LIMI -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-tilt>
+            <span class="badge">7D PRO MAX EDITION</span>
+            <h1 class="glitch" data-text="DONIYORBEKVICC7">DONIYORBEKVICC7</h1>
+            <p class="typing-text">Kelajak texnologiyalari, 7D dizayn va mukammal dasturlash olamiga xush kelibsiz.</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn-primary">Loyihalarni ko'rish &#128640;</a>
+                <a href="#about" class="btn-glass">Batafsil &#128104;&#8205;&#128640;</a>
+            </div>
+        </div>
+        <div class="hero-3d-object">
+            <div class="cube">
+                <div class="face front">7D</div>
+                <div class="face back">PRO</div>
+                <div class="face right">MAX</div>
+                <div class="face left">CODE</div>
+                <div class="face top">VIP</div>
+                <div class="face bottom">VICC7</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. MEN HAQIMDA BO'LIMI -->
+    <section id="about" class="section">
+        <h2 class="section-title">MEN <span>HAQIMDA</span></h2>
+        <div class="about-grid">
+            <div class="glass-card tilt-card">
+                <div class="icon-neon">&#128187;</div>
+                <h3>Full-Stack Dasturlash</h3>
+                <p>Zamonaviy veb-ilovalar, murakkab algoritmlar va yuqori tezlikdagi tizimlarni yaratish.</p>
+            </div>
+            <div class="glass-card tilt-card">
+                <div class="icon-neon">&#127918;</div>
+                <h3>7D UI/UX Dizayn</h3>
+                <p>Foydalanuvchini hayratda qoldiruvchi chuqur 3D animatsiyalar va neon interfeyslar.</p>
+            </div>
+            <div class="glass-card tilt-card">
+                <div class="icon-neon">&#128737;</div>
+                <h3>Kiberxavfsizlik</h3>
+                <p>Ma'lumotlarni himoyalash va tizim barqarorligini 100% kafolatlash.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. XIZMATLAR VA STATISTIKA -->
+    <section id="services" class="section">
+        <h2 class="section-title">PRO MAX <span>KO'RSATKICHLAR</span></h2>
+        <div class="stats-container">
+            <div class="stat-box glass-card">
+                <h3 class="counter" data-target="150">0</h3>
+                <p>Muvaffaqiyatli Loyihalar</p>
+            </div>
+            <div class="stat-box glass-card">
+                <h3 class="counter" data-target="1200">0</h3>
+                <p>Pro Max Kod Modullari</p>
+            </div>
+            <div class="stat-box glass-card">
+                <h3 class="counter" data-target="99">0</h3>
+                <p>Mamnun Mijozlar (%)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. 7D PORTFOLIO BO'LIMI -->
+    <section id="portfolio" class="section">
+        <h2 class="section-title">7D <span>LOYIHALAR</span></h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item glass-card tilt-card">
+                <div class="p-img p-bg-1"></div>
+                <div class="p-info">
+                    <h3>Cyberpunk Platforma</h3>
+                    <p>WebGL va Three.js asosida yaratilgan virtual olam.</p>
+                </div>
+            </div>
+            <div class="portfolio-item glass-card tilt-card">
+                <div class="p-img p-bg-2"></div>
+                <div class="p-info">
+                    <h3>AI Neyron Tarmoq</h3>
+                    <p>Sun'iy intellekt yordamida boshqariluvchi tizim.</p>
+                </div>
+            </div>
+            <div class="portfolio-item glass-card tilt-card">
+                <div class="p-img p-bg-3"></div>
+                <div class="p-info">
+                    <h3>Crypto 7D Birja</h3>
+                    <p>Real vaqt rejimida ishlovchi moliyaviy platforma.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. ALOQA BO'LIMI -->
+    <section id="contact" class="section">
+        <h2 class="section-title">ALOQA <span>MARKAZI</span></h2>
+        <form class="contact-form glass-card" id="contactForm">
+            <div class="input-group">
+                <input type="text" required placeholder="Ismingiz">
+            </div>
+            <div class="input-group">
+                <input type="email" required placeholder="Email manzilingiz">
+            </div>
+            <div class="input-group">
+                <textarea rows="5" required placeholder="Xabaringizni yozing..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Xabarni Yuborish &#9993;</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 <span>doniyorbekvicc7</span>. Barcha huquqlar himoyalangan. 7D Pro Max Architecture.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
